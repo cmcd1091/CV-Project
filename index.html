@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Christian McDonald's Digital CV</title>
+   </head>
+   <body>
+      <header>
+         <!-- Introduction -->
+         <section>
+            <img 
+               src="Images/HeadshotSmaller.jpg"
+               alt="Headshot"
+               height="250"
+            >
+            <h1>Christian McDonald</h1>
+            <p><a href="mailto:cmcd1091@gmail.com">cmcd1091@gmail.com</a></p>
+            <p>(603) 856-5597</p>
+            <p>Dover, NH</p>
+         </section>
+      </header>
+
+      <main>
+         <!-- Summary -->
+         <section>
+            <h2>Summary</h2>
+            <!--Will eventually be beefed up when I know what I'm talking about-->
+            <p>Aspiring software developer with a specialty in web development. Dependable, adaptable, and a fast learner. Seeking to unite my strengths with your company.</p>
+         </section>
+
+         <!-- Education -->
+         <section>
+            <h2>Education</h2>
+            <!-- Ordered list to fill ol requirement. Would prefer to do unordered list -->
+            <ol>
+               <li><strong>Southern New Hampshire University</strong> - Master of Science in Industrial/Organizational Psychology</li>
+               <li><strong>University of New Hampshire</strong> - Bachelor of Science in Business Administration -- Management</li>
+               <li><strong>Bow High School</strong> - High School Diploma</li>
+            </ol>
+         </section>
+
+         <!-- Skills -->
+         <section>
+            <h2>Skills</h2>
+            <h3>Web Development</h3>
+            <ul>
+               <li>HTML & CSS</li>
+               <li>JavaScript</li>
+               <li>React</li>
+            </ul>
+            <h3>Other</h3>
+            <ul>
+               <li>Git & GitHub</li>
+               <li>Command Line</li>
+            </ul>
+         </section>
+
+         <!-- Tools -->
+         <section>
+            <h2>Tools</h2>
+            <table>
+
+               <!-- Table Header -->
+               <thead>
+                  <tr>
+                     <th>Tool</th>
+                     <th>Description</th>
+                     <th>Proficiency</th>
+                  </tr>
+               </thead>
+
+               <!-- Table body -->
+               <tbody>
+                  <tr>
+                     <td>Visual Studio Code</td>
+                     <td>A free source-code editor made by Microsoft for Windows, Linux, and macOS.</td>
+                     <td>Expert</td>
+                  </tr>
+                  <tr>
+                     <td>PyCharm</td>
+                     <td>Integrated Development Environment (IDE) used for Python programming.</td>
+                     <td>Intermediate</td>
+                  </tr>
+                  <tr>
+                     <td>Insomnia</td>
+                     <td>API testing tool that allows you to create HTTP requests and view responses.</td>
+                     <td>Intermediate</td>
+                  </tr>
+
+                  <tr>
+                     <td>Postman</td>
+                     <td>API testing and development tool.</td>
+                     <td>Beginner</td>
+                  </tr>
+                  <tr>
+                     <td>Sketch</td>
+                     <td>Vector graphics editor for digital design.</td>
+                     <td>Beginner</td>
+                  </tr>
+                  <tr>
+                     <td>Slack</td>
+                     <td>Collaboration hub for work, with channels, messaging, and file sharing.</td>
+                     <td>Expert</td>
+                  </tr>
+               </tbody>
+            </table>
+         </section>
+
+         <!-- Work Experience -->
+         <section>
+            <h2>Work Experience</h2>
+            <ul>
+               <li>Digital Print Production Manager at Coed Sportswear (09/2022 - Present)</li>
+               <li>Paul College Photographer at University of New Hampshire (01/2021 - 07/2021)</li>
+            </ul>
+         </section>
+
+         <!-- Projects -->
+         <section>
+            <h2>Projects</h2>
+
+            <!-- Project 1 -->
+            <div>
+               <h3><a href="...project1">Project 1</a></h3>
+               <p>Description</p>
+               <img 
+                  src="...project1"
+                  alt="Project_1_thumbnail"
+                  width="200"
+               >
+            </div>
+
+            <!-- Project 2 -->
+            <div>
+               <h3><a href="...project2">Project 2</a></h3>
+               <p>Description</p>
+               <img
+                  src="...project2"
+                  alt="Project_2_thumbnail"
+                  width="200"
+               >
+            </div>
+            
+            <!-- Project 3 -->
+            <div>
+               <h3><a href="...project3">Project 3</a></h3>
+               <p>Description</p>
+               <img
+                  src="...project3"
+                  alt="Project_3_thumbnail"
+                  width="200"
+               >
+            </div>
+
+         </section>
+      </main>
+
+      <footer>
+         <!-- Contact Me -->
+         <section>
+            <h2>Contact Me</h2>
+            <form action="#">
+
+               <!-- Name Field -->
+               <div>
+                  <label>
+                     Name:
+                     <input
+                        type="text"
+                        name="name"
+                        placeholder="John Doe"
+                        required
+                     >
+                  </label>
+               </div>
+
+               <!-- Email Field -->
+               <div>
+                  <label>
+                     Email:
+                     <input
+                        type="email"
+                        name="email"
+                        placeholder="JohnDoe@gmail.com"
+                        required
+                     >
+                  </label>
+               </div>
+               
+               <!-- Organization Field -->
+               <div>
+                  <label>
+                     Organization:
+                     <input
+                        type="text"
+                        name="organization"
+                        placeholder="Coed Sportswear LLC."
+                        required
+                     >
+                  </label>
+               </div>
+
+               <!-- Role Field -->
+               <div>
+                  <label>
+                     Role:
+                     <input
+                        type="text"
+                        name="role"
+                        placeholder="Marketing Specialist"
+                        required
+                     >
+                  </label>
+               </div>
+
+               <!-- Reason for Contact Dropdown -->
+               <div>
+                  Reason for Contact:
+                  <select>
+                     <option value="job-offer">Job Offer</option>
+                     <option value="collaboration">Collaboration</option>
+                     <option value="feedback">Feedback</option>
+                  </select>
+               </div>
+
+               <!-- Coding Time Checkboxes -->
+               <fieldset>
+                  <legend>When do you prefer to code?</legend>
+                  <label>
+                     <input type="checkbox" name="bright-and-early"> 
+                     Bright & Early
+                  </label>
+                  <br>
+                  <label>
+                     <input type="checkbox" name="afternoon"> 
+                     Afternoon
+                  </label>
+                  <br>
+                  <label>
+                     <input type="checkbox" name="evening"> 
+                     Evening
+                  </label>
+                  <br>
+                  <label>
+                     <input type="checkbox" name="night-owl"> 
+                     Night Owl
+                  </label>
+               </fieldset>
+
+               <!-- Custom Message -->
+               <div>
+                  Message: <textarea rows="5" cols="20" placeholder="Custom message..."></textarea>
+               </div>
+               <!-- Buttons -->
+               <div>
+                  <button type="reset">Clear</button>
+                  <button type="submit">Submit</button>
+               </div>
+            </form>
+         </section>
+
+         <!-- Connect -->
+         <section>
+
+            <h2>Connect</h2>
+            <p>Let's connect! Find me on:</p>
+            
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/christian-mcdonald1537/" target="_blank">
+            <img
+               src="Images/LinkedIn-Logo.png"
+               height="50"
+               alt="LinkedIn Logo"
+            >
+            LinkedIn</a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/cmcd1091?tab=projects" target="_blank">
+            <img
+               src="Images/GitHub-Logo.png"
+               height="50"
+               alt="GitHub Logo"
+            >
+            GitHub</a>
+
+         </section>
+      </footer>
+   </body>
+</html>
