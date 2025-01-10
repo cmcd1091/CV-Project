@@ -1,7 +1,18 @@
+html {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #789dbcf2;
+  color: white;
+}
+
 h1 {
   text-align: center;
+  text-shadow: 1px 1px 3px;
 }
 
 h2 {
   text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
 }
