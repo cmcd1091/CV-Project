@@ -1,18 +1,31 @@
-html {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+/* Styling for the entire webpage */
+body {
   background-color: #789dbcf2;
   color: white;
+  font-family: "Roboto", georgia, arial;
+  line-height: 1.5;
 }
 
+/* Styling for name */
 h1 {
   text-align: center;
-  text-shadow: 1px 1px 3px;
+  font-size: 2rem;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, .5);
 }
 
+/* Styling for section headings */
 h2 {
   text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 340;
 }
 
+/* Styling for subsections */
+h3 {
+  font-size: 1.2rem
+}
+
+/* Styling of links */
 a {
   text-decoration: none;
 }
