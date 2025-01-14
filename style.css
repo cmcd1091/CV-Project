@@ -1,9 +1,22 @@
+/* Use border-box in all elements */
+* {
+  box-sizing: border-box;
+}
+
 /* Styling for the entire webpage */
 body {
   background-color: #789dbcf2;
   color: white;
   font-family: "Roboto", georgia, arial;
-  line-height: 1.5;
+  line-height: 2;
+  margin: 2rem; /* Spacing between content and border */
+  padding: 2rem; /* Spacing outside border */
+  border: 1px white solid; /* Border around all content */
+}
+
+main section, footer section {
+  border-top: 1px white solid;
+  margin: 2rem 0;
 }
 
 /* Styling for name */
@@ -15,17 +28,44 @@ h1 {
 
 /* Styling for section headings */
 h2 {
-  text-transform: uppercase;
   font-size: 1.6rem;
   font-weight: 340;
+  text-transform: uppercase;
 }
 
-/* Styling for subsections */
+/* Font size for subsections */
 h3 {
-  font-size: 1.2rem
+  font-size: 1.2rem;
+}
+
+/* Padding below headers to ensure content doesn't feel cramped. */
+h1, h2, h3 {
+  padding-bottom: 1rem;
+}
+
+.headshot-container img {
+  border-radius: 50%; /* Rounding the profile image */
+  border: 1px solid white; /* Adding a border */
 }
 
 /* Styling of links */
 a {
   text-decoration: none;
+}
+
+/* Adjust form elements to capture same look and feel. */
+form input, form textarea, form select {
+  padding: .2rem;
+  border: 1px solid white;
+  outline: none;
+}
+
+form button {
+  padding: .2rem .7rem;
+  margin: 0 .2rem;
+  border: 1px solid white;
+}
+
+form fieldset {
+  border: none;
 }
