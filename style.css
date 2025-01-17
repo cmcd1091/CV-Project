@@ -67,5 +67,67 @@ form button {
 }
 
 form fieldset {
+  margin: 0;
+  padding: 0;
   border: none;
+}
+
+header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tools-container {
+  display: flex;
+  justify-content: center;
+}
+
+.project-entry {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.project-entry .image-container
+{
+  margin-right: 2rem;
+}
+
+.contact-container {
+  display: flex;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-input-container, .select-container, .checkbox-container {
+  display: flex;
+  width: 30rem;
+  margin-bottom: 1rem;
+}
+
+.text-input-container label, .select-container label {
+  flex-grow: 1;
+}
+
+.text-input-container input, .text-input-container textarea, .select-container select {
+  width: 20rem;
+}
+
+.text-input-container textarea {
+  height: 10rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
 }
