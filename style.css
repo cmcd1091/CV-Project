@@ -3,20 +3,37 @@
   box-sizing: border-box;
 }
 
-/* Styling for the entire webpage */
+/* Styling for the webpage */
 body {
   background-color: #789dbcf2;
   color: white;
   font-family: "Roboto", georgia, arial;
   line-height: 2;
-  margin: 2rem; /* Spacing between content and border */
-  padding: 2rem; /* Spacing outside border */
-  border: 1px white solid; /* Border around all content */
+  border: 1px white solid; /* Border around page */
+  padding: 2rem; /* Spacing between content and border */
+  margin: 2rem; /* Spacing outside border */
 }
 
-main section, footer section {
-  border-top: 1px white solid;
+main section,
+footer section {
+  border-top: 1px white solid; /* Borders between sections */
   margin: 2rem 0;
+}
+
+/* Styling for header */
+header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headshot-container img {
+  border-radius: 50%; /* Rounding the profile image */
+  border: 1px solid white; /* Border around profile image */
+}
+
+.personal-info-container {
+  line-height: 1rem;
 }
 
 /* Styling for name */
@@ -43,39 +60,18 @@ h1, h2, h3 {
   padding-bottom: 1rem;
 }
 
-.headshot-container img {
-  border-radius: 50%; /* Rounding the profile image */
-  border: 1px solid white; /* Adding a border */
-}
-
 /* Styling of links */
 a {
   text-decoration: none;
 }
 
 /* Adjust form elements to capture same look and feel. */
-form input, form textarea, form select {
+form input, 
+form textarea, 
+form select {
   padding: .2rem;
   border: 1px solid white;
   outline: none;
-}
-
-form button {
-  padding: .2rem .7rem;
-  margin: 0 .2rem;
-  border: 1px solid white;
-}
-
-form fieldset {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-
-header section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .skills-container {
@@ -99,32 +95,46 @@ header section {
   margin-right: 2rem;
 }
 
-.contact-container {
-  display: flex;
-}
-
 .form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.text-input-container, .select-container, .checkbox-container {
+.text-input-container,
+.select-container,
+.checkbox-container {
   display: flex;
   width: 30rem;
   margin-bottom: 1rem;
 }
 
-.text-input-container label, .select-container label {
+.text-input-container label,
+.select-container label {
   flex-grow: 1;
 }
 
-.text-input-container input, .text-input-container textarea, .select-container select {
-  width: 20rem;
+.text-input-container input,
+.text-input-container textarea,
+.select-container select {
+  width: 20rem; /* Width of inputs and selection box */
 }
 
 .text-input-container textarea {
-  height: 10rem;
+  height: 10rem; /* Height of custom message box */
+}
+
+form fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* Styling of form buttons */
+form button {
+  padding: .2rem .7rem;
+  margin: 0 .2rem;
+  border: 1px solid white;
 }
 
 .button-container {
